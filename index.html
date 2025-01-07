@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Portfolio</div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="profile-pic">
+                <img src="./assets/profile.png" alt="Profile Picture" />
+            </div>
+            <h1>Shubham Kumar</h1>
+            <p>Full Stack Developer passionate about creating innovative web solutions</p>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p class="about-description">
+                I'm a passionate Full Stack Developer with 3+ years of experience in building web applications. 
+                I love turning complex problems into simple, beautiful, and intuitive solutions.
+            </p>
+            <div class="skills-grid">
+                <div class="skill-box">
+                    <i class="fab fa-html5 skill-icon"></i>
+                    <div class="skill-title">HTML5</div>
+                </div>
+                <div class="skill-box">
+                    <i class="fab fa-css3-alt skill-icon"></i>
+                    <div class="skill-title">CSS3</div>
+                </div>
+                <div class="skill-box">
+                    <i class="fab fa-js skill-icon"></i>
+                    <div class="skill-title">JavaScript</div>
+                </div>
+                <div class="skill-box">
+                    <i class="fab fa-react skill-icon"></i>
+                    <div class="skill-title">React</div>
+                </div>
+                <div class="skill-box">
+                    <i class="fab fa-node-js skill-icon"></i>
+                    <div class="skill-title">Node.js</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-slider">
+                <div class="slider-container">
+                    <div class="project-slide">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="Project 1" class="project-image">
+                        <div class="project-info">
+                            <h3>Project 1</h3>
+                            <p>Description of project 1</p>
+                        </div>
+                    </div>
+                    <div class="project-slide">
+                        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6" alt="Project 2" class="project-image">
+                        <div class="project-info">
+                            <h3>Project 2</h3>
+                            <p>Description of project 2</p>
+                        </div>
+                    </div>
+                    <div class="project-slide">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c" alt="Project 3" class="project-image">
+                        <div class="project-info">
+                            <h3>Project 3</h3>
+                            <p>Description of project 3</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-icon prev">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+                <div class="slider-icon next">
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Get in Touch</h2>
+            <h3 class="contact-subtitle">Any Questions? Feel Free to Contact</h3>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>sector 168, Noida, India</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+91 1234567899</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>shubhamKumar@gmail.com</span>
+                    </div>
+                </div>
+
+                <form class="contact-form">
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="E-mail" required>
+                    <input type="tel" placeholder="Mobile No." required>
+                    <textarea placeholder="Message" rows="5" required></textarea>
+                    <button type="submit" class="submit-btn">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Shubham Kumar. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
